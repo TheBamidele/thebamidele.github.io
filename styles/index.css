@@ -16,7 +16,7 @@ body {
                 display: block;
             }
         }
-
+        
 
 
 .header {
@@ -382,7 +382,6 @@ body {
 
 .footer .top p {
     font-family: 'Roboto Slab';
-    font-size: large;
 }
 
 
@@ -479,3 +478,19 @@ body {
                     width: 35%;
                 }
             }
+
+
+
+/* To display text legibly in Tablets and iPads */
+
+@media screen and (max-width: 768px) {
+    h1, h2, h3, h4, h5 {
+        font-size: medium;
+    }
+    p {
+        font-size: medium;
+    }
+    a {
+        font-size: small;
+    }
+}
