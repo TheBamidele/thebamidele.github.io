@@ -1,5 +1,5 @@
 body {
-    margin: 0 5%;
+    margin: 0 2%;
     font-family: 'Rakkas';
 }
 
@@ -44,7 +44,6 @@ body {
     text-align: center;
     padding: 7px;
     text-decoration: none;
-    font-size: small;
 }
 
 
@@ -100,9 +99,8 @@ body {
     width: 100%;
     height: 400px;
     position: relative;
-    overflow: hidden;
     align-items: center;
- }
+}
 
 
 .container img {
@@ -124,7 +122,6 @@ body {
 .container h1 {
     color: white;
     font-family: 'Rakkas';
-    font-size: xx-large;
     padding: 25px;
     text-shadow: 5px 5px 5px black;
 }
@@ -145,14 +142,12 @@ body {
 
 
 .welcome-text h1 {
-    font-size: medium;
     padding: 10px;
 }
 
 
 .welcome-text p {
     text-align: center;
-    font-size: small;
     margin-top: 10px;
 }
 
@@ -169,7 +164,7 @@ body {
 #blog-posts {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 2% 5%;
+    margin: 1% 5%;
 }
 
 
@@ -180,9 +175,8 @@ body {
             }
 
 .item {
-    margin: 10% 25%;
+    margin: 10%;
     background-color: darkcyan;
-    overflow: hidden;
 }
 
 
@@ -194,8 +188,11 @@ body {
 }
 
 
+.item h4 {
+    padding: 2% 10%;
+}
+
 .item p {
-    font-size: small;
     padding: 2% 10%;
     text-align: justify;
     font-family: 'Roboto Slab';
@@ -210,7 +207,6 @@ body {
 
 
 .subscription {
-    overflow: hidden;
     padding: 0%;
     margin: 2%;
     color: black;
@@ -276,14 +272,12 @@ body {
 
 
 .subscription p {
-    font-size: medium;
     padding: 0 2%;
 }
 
 
 .subscription a {
     padding: 2.5% 15%;
-    font-size: small;
     color: white;
     background-color: darkorange;
 }
@@ -344,14 +338,12 @@ body {
 
 
 .about-author .left p {
-    font-size: small;
     text-align: justify;
 }
 
 
 
 .footer {
-    overflow: hidden;
     margin: 0%;
     padding: 1% 0%;
     border-top: #7A7978 1px solid;
@@ -383,15 +375,14 @@ body {
 
 
 
-.footer .top h1 {
+.footer .top h2 {
     text-shadow: 5px 5px 5px black;
-    font-size:  calc(0.75em + 1vmin)
 }
 
 
 .footer .top p {
-    font-size: medium;
     font-family: 'Roboto Slab';
+    font-size: large;
 }
 
 
@@ -400,7 +391,6 @@ body {
     margin: 5% 25%;
     padding: 2.5%;
     text-decoration: none;
-    font-size: calc(0.50em + 1vmin);
     font-family: 'Rakkas';
     display: block;
     background-color: darkorange;
@@ -419,9 +409,8 @@ body {
 }
 
 
-.footer #bottom h1 {
+.footer #bottom h2 {
     font-family: 'Segoe UI';
-    font-size: calc(0.50em + 1vmin);
     text-shadow: 5px 5px 5px black;
 }
 
@@ -429,7 +418,6 @@ body {
 .footer #bottom p {
     padding: 0;
     font-family: 'Roboto Slab';
-    font-size: calc(0.25em + 1vmin);
 }
 
 
@@ -468,6 +456,7 @@ body {
 .copyright {
     text-align: center;
     font-family: 'Roboto Slab';
+    padding-bottom: 5px;
 }
 
 .copyright a {
@@ -475,7 +464,7 @@ body {
     text-decoration: unset;
 }
 
-.copyright h5::before {
+.copyright p::before {
     content: '';
     display: block;
     margin: 0 auto;
