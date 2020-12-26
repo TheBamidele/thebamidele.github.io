@@ -8,14 +8,7 @@ body {
     display: none;
 }
 
-        @media screen and (max-width: 500px) {
-            #desktop {
-                display: none;
-            }
-            #mobile {
-                display: block;
-            }
-        }
+
         
 
 
@@ -60,7 +53,7 @@ body {
 }
 
 
-            @media screen and (max-width: 500px) {
+            @media screen and (max-width: 540px) {
                 .header-right a {
                     float: none;
                     text-align: center;
@@ -236,7 +229,7 @@ body {
     float: left;
 }
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 540px) {
             #desktop {
                 display: none;
             }
@@ -435,7 +428,7 @@ body {
 }
 
 
-            @media screen and (max-width: 500px) {
+            @media screen and (max-width: 540px) {
                 .footer .top {
                     display: block;
                 }
@@ -484,13 +477,25 @@ body {
 /* To display text legibly in Tablets and iPads */
 
 @media screen and (max-width: 768px) {
-    h1, h2, h3, h4, h5 {
-        font-size: medium;
-    }
     p {
         font-size: medium;
     }
     a {
+        font-size: medium;
+    }
+}
+
+
+
+
+@media screen and (max-width: 540px) {
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: block;
+    }
+    p, a {
         font-size: small;
     }
 }
