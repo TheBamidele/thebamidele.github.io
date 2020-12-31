@@ -84,8 +84,7 @@ body {
 
 
 .content {
-    margin: 5% 20%;
-    color: black;
+    margin: 5% 10%;
     border: darkcyan 5px solid;
     padding: 10px;
 }
@@ -102,7 +101,6 @@ body {
 
 .content p {
     font-family: 'Roboto Slab';
-    font-size: medium;
     text-align: justify;
     margin: 10px;
     line-height: 2;
@@ -125,7 +123,7 @@ body {
 .links {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    margin: 0 15%;
+    margin: 0 5%;
 }
 
 
@@ -143,7 +141,6 @@ body {
 
 
 .link p {
-    font-size: small;
     font-family: 'Rakkas';
 }
 
@@ -162,10 +159,13 @@ body {
 
 
 .copyright {
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     font-family: 'Geneva';
     font-size: small;
-    margin: 40px 0;
+    margin-top: 40px;
 }
 
 .copyright .logo:hover {
@@ -187,3 +187,11 @@ body {
                     width: 35%;
                 }
             }
+
+
+
+@media screen and (max-width: 768px) {
+    .copyright {
+        position: fixed;
+    }
+}
