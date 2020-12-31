@@ -9,7 +9,9 @@ body {
 }
 
 
-        
+a {
+    font-size: small;
+}    
 
 
 .header {
@@ -456,6 +458,10 @@ body {
     text-decoration: unset;
 }
 
+.copyright p {
+    font-size: small;
+}
+
 .copyright p::before {
     content: '';
     display: block;
@@ -481,7 +487,10 @@ body {
         font-size: medium;
     }
     a {
-        font-size: medium;
+        font-size: small;
+    }
+    .copyright p {
+        font-size: small;
     }
 }
 
