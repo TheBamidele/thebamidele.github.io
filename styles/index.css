@@ -447,6 +447,11 @@ a {
 }
 
 
+.social a img {
+    height: 4%;
+    width: 4%;
+}
+
             @media screen and (max-width: 540px) {
                 .footer .top {
                     display: block;
@@ -456,6 +461,10 @@ a {
                 }
                 .footer .top .right {
                     width: 100%;
+                }
+                .social a img {
+                    height: 10%;
+                    width: 7.5%;
                 }
             }
 
