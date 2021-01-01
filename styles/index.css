@@ -315,13 +315,13 @@ a {
                 
         @media screen and (max-width: 768px) {
             .about-author img {
-                width: fit-content;
+                width: 150px;
             }
         }
 
         @media screen and (max-width: 540px) {
             .about-author {
-                height: 425px;
+                height: fit-content;
                 overflow: hidden;
                 display: block;
             }
