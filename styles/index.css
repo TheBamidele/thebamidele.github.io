@@ -321,7 +321,7 @@ a {
 
         @media screen and (max-width: 540px) {
             .about-author {
-                height: 450px;
+                height: 425px;
                 overflow: hidden;
                 display: block;
             }
