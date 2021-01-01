@@ -45,7 +45,7 @@ body {
     text-align: center;
     padding: 7px;
     text-decoration: none;
-    font-size: small;
+    font-size: medium;
 }
 
 
@@ -324,7 +324,6 @@ textarea.input1 {
     bottom: 0;
     left: 0;
     right: 0;
-    position: sticky;
 }
 
 .copyright a {
