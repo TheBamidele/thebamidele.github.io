@@ -499,8 +499,8 @@ a {
 
 
             @media screen and (max-width: 540px) {
-                .copyright::before {
-                    width: 35%;
+                .copyright p::before {
+                    width: 25%;
                 }
                 .copyright p {
                     font-size: xx-small;
