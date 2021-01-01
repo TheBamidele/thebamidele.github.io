@@ -502,6 +502,9 @@ a {
                 .copyright::before {
                     width: 35%;
                 }
+                .copyright p {
+                    font-size: xx-small;
+                }
             }
 
 
